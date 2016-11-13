@@ -298,7 +298,7 @@ p{
 
 
 /*============= Articles ============*/
-div.articles {
+.articles {
     background: lightgrey !important;
 }
 .readmorearticles{
@@ -522,8 +522,8 @@ div.articles {
 }
 
 .btn-purchase-now:hover{
-    background-color: #1274B1;
-    border-color: #316B90;
+    background-color: red;
+    border-color: red;
 }
 
 /*============== Counter ================*/ 
