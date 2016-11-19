@@ -316,13 +316,14 @@ p{
     background-color: lightgrey;
 }
 
-/*============== Our inspiration banner image ==========*/
+/*============== Our inspiration banner image 
 .inspirationbannerimage {
     background-color: #800020; 
     background-size: cover;
     padding-top: 10px; 
     padding-bottom: 10px;  
 }
+==========*/
 
 /*============= projects ============*/
 .PROJECTS{
