@@ -60,7 +60,7 @@ p{
     font-size: 10px !important;
     font-weight: bold !important; 
     letter-spacing: 4px;
-    opacity: 0.7 !important;
+    opacity: 0.8 !important;
 }
 .navbar-default{
     background-color: white; 
@@ -318,10 +318,10 @@ p{
 
 /*============== Our inspiration banner image ==========*/
 .inspirationbannerimage {
-    background-image: url("../images/colorpattern.jpg"); 
+    background-color: #800020; 
     background-size: cover;
-    padding-top: 10px; 
-    padding-bottom: 10px;  
+    padding-top: 5px; 
+    padding-bottom: 5px;  
 }
 
 /*============= projects ============*/
