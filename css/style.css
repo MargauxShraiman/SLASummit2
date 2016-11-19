@@ -527,7 +527,7 @@ p{
 
 /*============== Counter ================*/ 
 .counter{
-    background-image: url("../images/people-pattern.jpg");
+    background-image: url("../images/people-pattern.png");
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover;
