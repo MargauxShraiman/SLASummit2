@@ -46,7 +46,7 @@ p{
 .section-title p{
     color: #333; 
     font-size: 18px; 
-    line-height: 28px; 
+    line-height: 20px; 
     font-weight: 300; 
     text-align: center;
     margin-top: 45px;
@@ -250,7 +250,7 @@ p{
 .choose-us-title p{
     color: #333; 
     font-size: 18px; 
-    line-height: 28px; 
+    line-height: 20px; 
     font-weight: 300; 
     margin-top: 40px;
     line-height: 24px; 
@@ -316,14 +316,14 @@ p{
     background-color: lightgrey;
 }
 
-/*============== Our inspiration banner image 
+/*============== Our inspiration banner image ==========*/
 .inspirationbannerimage {
     background-color: #800020; 
     background-size: cover;
-    padding-top: 10px; 
-    padding-bottom: 10px;  
+    padding-top: 5px; 
+    padding-bottom: 5px;  
 }
-==========*/
+
 
 /*============= projects ============*/
 .PROJECTS{
