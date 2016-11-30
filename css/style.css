@@ -295,6 +295,16 @@ p{
 }
 
 
+/*=========== Early Bird =========*/
+.earlybirdannouncement {
+    font-family: "helvetica Neue", Helvetica;
+    margin-top: 0px;
+}
+
+.earlybirdannouncement p {
+    font: helvetica;
+    font-size: 18px;
+}
 
 /*============= Articles ============*/
 .articles {
