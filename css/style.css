@@ -113,7 +113,7 @@ p{
 }
 /* ====== Header ========= */ 
 .header { 
-    background-image: url("../images/header-bg.jpg"); 
+    background-image: url("../images/quechua-kids.jpg"); 
     /*background attachment describes whether the image should scroll or be fixed*/ 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ p{
 .btn-download:visited
 {
     background: transparent; 
-    border-color: #cc0000; 
+    border-color: #e60000; 
     padding-top: 10px; 
     padding-bottom: 10px; 
     padding-left: 30px;
@@ -184,7 +184,7 @@ p{
 
 
 .btn-download:hover {
-    background-color: #cc0000; 
+    background-color: #e60000; 
     color: #fff; 
 }
 
@@ -578,6 +578,44 @@ p{
     font-family: "Source Sans Pro", sans-serif; 
 }
 
+/* ========= Counter ============= */
+.counter {
+    background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, .4);
+}
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 /*============== Download Now ================*/ 
 
 .download-now img{
@@ -808,7 +846,7 @@ p{
 background-color: rgba(71, 71, 71, 0.59);
 padding: 100px 0 5px;
 min-height: 700px; 
-/* Incase of overlay problems just increase the min-height*/
+
 }
 .video-section h1, .video-section h3{
 text-align:center;
@@ -831,3 +869,9 @@ margin: 0px auto 15px;
 }
 .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
+
+
+
+
+
+
