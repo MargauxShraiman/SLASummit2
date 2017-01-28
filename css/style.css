@@ -4,9 +4,10 @@
 }
 
 body{ 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    color: #0A3468;
 }
 
 p{
@@ -27,7 +28,7 @@ p{
 .section-title h2 {
     position: relative;
     text-align: center; 
-    color: #333; 
+    color: #0A3468; 
     font-size: 30px; 
     font-weight: 400; 
     text-transform: uppercase;
@@ -42,9 +43,11 @@ p{
     height: 1px; 
     background-color: #cc0000; 
     margin-left: -30px; 
+    color: #
+    0A3468;
 }
 .section-title p{
-    color: #333; 
+    color: #0A3468; 
     font-size: 18px; 
     line-height: 20px; 
     font-weight: 300; 
@@ -232,6 +235,7 @@ p{
     font-size: 30px; 
     line-height: 37px; 
     position: relative; 
+    color: #0A3468; 
 }
 
 .choose-us-title h2:after{
@@ -242,19 +246,18 @@ p{
     width: 70px; 
     height: 1px; 
     background-color: #cc0000; 
+    color: #0A3468 !important; 
 }
 
+
 .choose-us-title p{
-   
-}
-.choose-us-title p{
-    color: #333; 
+    color: #0A3468 !important; 
     font-size: 18px; 
     line-height: 20px; 
     font-weight: 300; 
     margin-top: 40px;
     line-height: 24px; 
-    font-family: "Helvetica Neue",Helvetica, "avenir-next";
+    font-family: "Helvetica Neue", Helvetica, "avenir-next";
 }
 
 .choose-us-item{
@@ -283,10 +286,11 @@ p{
     text-transform: uppercase; 
     font-size: 20px;
     font-weight: 500;
+    color: #0A3468;
 }
 
 .choose-us-item p{
-    color: #333; 
+    color: #0A3468; 
     font-size: 16px; 
     line-height: 28px; 
     font-weight: 300; 
@@ -294,246 +298,24 @@ p{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.text-center {
+    color: #0A3468;
+}
 
-/*=========== Early Bird =========*/
-.earlybirdannouncement {
+/*=========== GET INVOLVED =========*/
+.generalregistration {
     font-family: "helvetica Neue", Helvetica;
     margin-top: 0px;
+    background: #E8E9F3;
+}
+.generalregistration h2 {
+    color: #0A3468;
 }
 
-.earlybirdannouncement p {
+.generalregistration p {
     font: helvetica;
     font-size: 18px;
-}
-
-/*============= Articles ============*/
-.articles {
-    background: lightgrey !important;
-}
-.readmorearticles{
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px; 
-    padding-top: 30px;
-
-}
-
-/*============= MEET THE TEAM ==================*/
-
-
-/*============== OUR INSPIRATION ===============*/
-.OUR-INSPIRATION{
-    background-color: lightgrey;
-}
-
-/*============== Our inspiration banner image ==========*/
-.inspirationbannerimage {
-    background-color: #800020; 
-    background-size: cover;
-    padding-top: 5px; 
-    padding-bottom: 5px;  
-}
-
-
-/*============= projects ============*/
-.PROJECTS{
-    background-color: white;
-}
-.project-title {
-    padding-top: 50px; 
-    padding-bottom: 50px; 
-}
-
-.project-title h2 {
-    position: relative;
-    text-align: center; 
-    color: black; 
-    font-size: 30px; 
-    font-weight: 400; 
-    text-transform: uppercase;
-}
-
-.project-title h2:after{
-    content:""; 
-    position: absolute;
-    bottom: -20px; 
-    left: 50%; 
-    width: 60px; 
-    height: 1px; 
-    background-color: #cc0000; 
-    margin-left: -30px; 
-}
-
-/*============== Testimonials  ================*/ 
-
-.TESTIMONIALS{
-    background-image: url("../images/parobamba2.jpg");
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: 50% 50%; 
-}
-
-.testimonial-overlay{
-    background-color: rgba(31, 31, 31, .75);
-}
-
-.carousel-indicators{
-    bottom: -10px; 
-}
-
-/*Adding a border frame to the images inside the carousel */ 
-.carousel-inner .item img{
-    border: 2px solid #cc0000; 
-  /*  border-radius: 50%; */
-  width: auto;
-  height: 130px !important;
-  max-height: 225px;
-    padding: 3px; 
-}
-
-.testimonial-caption{ 
-    padding-bottom: 70px; 
-}
-
-.testimonial-caption h2{
-    color: #cc0000; 
-    text-transform: uppercase; 
-    font-weight: 900; 
-    font-size: 30px; 
-    margin-top: 25px; 
-}
-
-.testimonial-caption h4{
-    color: #cc0000; 
-}
-
-.testimonial-caption h4 span{ 
-    color: #D8D8D8; 
-    font-style: italic; 
-    font-weight: 300;
-}
-
-.testimonial-caption p{
-    color: #D8D8D8;
-    font-size: 18px;
-    line-height: 27px; 
-    padding-top: 20px; 
-}
-/*============== Sponsors and partners ================*/ 
-.features-inner-wrapper{
-    padding-top: 30px; 
-    padding-bottom: 70px; 
-}
-
-.left-feature-item {
-    position: relative; 
-    padding-right: 90px; 
-    margin-bottom: 65px; 
-    text-align: right;
-    margin-top: 35px; 
-}
-
-.left-feature-item-icon{
-    position: absolute;
-    font-size: 40px; 
-    color: #cc0000; 
-    right: 0; 
-    top: -8px; 
-    width: 90px; 
-    height: 90px; 
-    text-align: center;
-}
-
-.left-feature-item h3{
-    text-transform: uppercase;
-    font-size: 25px; 
-    font-weight: 700; 
-    margin-bottom: 21px;
-    color: #333; 
-}
-
-.left-feature-item p{
-    color: #333; 
-    font-size: 16px; 
-    font-weight: 300; 
-    line-height: 25px; 
-}
-
-.feature-iphone img {
-    width: 100%; 
-}
-
-.right-feature-item {
-    position: relative; 
-    padding-left: 90px; 
-    margin-bottom: 65px; 
-    margin-top: 35px; 
-    text-align: left;
-}
-
-.right-feature-item-icon{
-    position: absolute;
-    font-size: 40px; 
-    color: #cc0000; 
-    left: 0; 
-    top: -8px; 
-    width: 90px; 
-    height: 90px; 
-    text-align: center;
-}
-
-.right-feature-item h3{
-    text-transform: uppercase;
-    font-size: 25px; 
-    font-weight: 700; 
-    margin-bottom: 21px;
-    color: #333; 
-}
-
-.right-feature-item p{
-    color: #333; 
-    font-size: 16px; 
-    font-weight: 300; 
-    line-height: 25px; 
-}
-
-/*============== Purchase Now ================*/ 
-.purchase-now{
-    background-color: #1a1a1a; 
-    padding-top: 100px; 
-    padding-bottom: 100px; 
-}
-
-.purchase-now p{
-    color: #dfdfdf; 
-    font-size: 18px; 
-    font-weight: 300; 
-}
-
-.btn-purchase-now,
-.btn-purchase-now:active, 
-.btn-purchase-now:focus,
-.btn-purchase-now:visited
-{
-    background-color: #cc0000; 
-    border: 1px solid #cc0000;
-    color: #fff; 
-    border-radius: 3px; 
-    padding: 15px 35px; 
-    text-transform: uppercase;
-    transition: all 1s; 
-    -o-transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-}
-
-.btn-purchase-now:hover{
-    background-color: red;
-    border-color: red;
+    color: #0A3468;
 }
 
 /*============== Counter ================*/ 
@@ -577,6 +359,184 @@ p{
     text-transform: uppercase;
     font-family: "Source Sans Pro", sans-serif; 
 }
+
+/*============== OUR GOALS ===============*/
+.OUR-GOALS {
+    background-color: #E8E9F3;
+}
+
+
+/*============== OUR INSPIRATION ===============*/
+.OUR-INSPIRATION{
+    background-color: #0A3468;
+}
+.ourinspiration p{
+    color: #E8E9F3 !important;
+}
+.ourinspiration h2 {
+    color: #E8E9F3 !important;
+}
+
+/*============= projects ============*/
+.PROJECTS{
+    background-color: #E8E9F3;
+}
+.project-title {
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+}
+
+.project-title h2 {
+    position: relative;
+    text-align: center; 
+    color: #0A3468; 
+    font-size: 30px; 
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
+.project-title h2:after{
+    content:""; 
+    position: absolute;
+    bottom: -20px; 
+    left: 50%; 
+    width: 60px; 
+    height: 1px; 
+    background-color: #cc0000; 
+    margin-left: -30px; 
+}
+
+/*============= Articles ============*/
+.articles {
+    background: #0A3468 !important;
+}
+.readmorearticles{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    padding-top: 30px;
+    color: #E8E9F3;
+}
+
+.articles p{
+    color: #E8E9F3;
+}
+
+.articles h2 {
+    color: #E8E9F3;
+}
+.art {
+    color: #E8E9F3;
+}
+
+.art h3{
+    color: #A50000;
+}
+
+
+/*============= MEET THE TEAM ==================*/
+.MEET-THE-TEAM {
+    background-color: #E8E9F3;
+}
+
+
+/*============== Testimonials  ================*/ 
+
+.TESTIMONIALS{
+    background-image: url("../images/parobamba2.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.testimonial-overlay{
+    background-color: rgba(31, 31, 31, .75);
+}
+
+.carousel-indicators{
+    bottom: -10px; 
+}
+
+/*Adding a border frame to the images inside the carousel */ 
+.carousel-inner .item img{
+    border: 2px solid #cc0000; 
+  /*  border-radius: 50%; */
+    width: auto;
+    height: 130px !important;
+    max-height: 225px;
+    padding: 3px; 
+}
+
+.testimonial-caption{ 
+    padding-bottom: 70px; 
+}
+
+.testimonial-caption h2{
+    color: #cc0000; 
+    text-transform: uppercase; 
+    font-weight: 900; 
+    font-size: 30px; 
+    margin-top: 25px; 
+}
+
+.testimonial-caption h4{
+    color: #cc0000; 
+}
+
+.testimonial-caption h4 span{ 
+    color: #D8D8D8; 
+    font-style: italic; 
+    font-weight: 300;
+}
+
+.testimonial-caption p{
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px; 
+    padding-top: 20px; 
+}
+/*============== Sponsors and partners ================*/ 
+
+
+/*============== Purchase Now ================*/ 
+.purchase-now{
+    background-color: #0A3468; 
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+}
+
+.purchase-now p{
+    color: #E8E9F3; 
+    font-size: 18px; 
+    font-weight: 300; 
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active, 
+.btn-purchase-now:focus,
+.btn-purchase-now:visited
+{
+    background-color: #48BEFF !important; 
+    border: 1px solid #48BEFF !important;
+    color: #E8E9F3; 
+    border-radius: 3px; 
+    padding: 15px 35px; 
+    text-transform: uppercase;
+    transition: all 1s; 
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-purchase-now:hover{
+    background-color: #48BEFF;
+    border-color: #48BEFF;
+}
+
 
 
 /*============== Download Now ================*/ 
@@ -666,6 +626,10 @@ p{
 
 
 /*============== Contact Us ================*/ 
+.contact-us {
+    background-color: #E8E9F3;
+}
+
 .googleform {
     align-items: center;
 }
@@ -803,35 +767,6 @@ p{
     color: #fff; 
     font-size: 25px; 
 }
-
-/*============== Video CSS ================*/ 
-.video-section .pattern-overlay {
-background-color: rgba(71, 71, 71, 0.59);
-padding: 100px 0 5px;
-min-height: 700px; 
-
-}
-.video-section h1, .video-section h3{
-text-align:center;
-color:#fff;
-}
-.video-section h1{
-font-size:40px;
-font-family: 'Helvetica', serif;
-font-weight: thin;
- letter-spacing: 5px;
-text-transform: uppercase;
-margin: 20px auto 0px;
--webkit-text-shadow: 1px 1px 1px #000;
--moz-text-shadow: 1px 1px 1px #000;
-}
-.video-section h3{
-font-size: 25px;
-font-weight:lighter;
-margin: 0px auto 15px;
-}
-.video-section .buttonBar{display:none;}
-.player {font-size: 1px;}
 
 
 
