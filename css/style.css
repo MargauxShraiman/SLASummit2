@@ -55,21 +55,34 @@ p{
     margin-top: 45px;
 }
 
-.btn {
+
+.btn-success,
+.btn-success:active
+.btn-success:focus, 
+.btn-success:visited {
     background-color: transparent !important;
     border: 1px solid #48BEFF !important; 
     border-radius: 4px !important; 
     width: 100% !important; 
     height: 50px !important; 
     text-transform: uppercase !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-size: 18px !important; 
-    color: #48BEFF!important; 
+    color: #48BEFF !important; 
     outline: 0px !important; 
-    transition: all 1s !important; 
-    -o-transition: all 1s !important; 
-    -moz-transition: all 1s !important;
-    -webkit-transition: all 1s !important;
+    transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
 }
+
+.btn-success:hover {
+    background-color: #48BEFF !important;
+    color: #fff !important;
+    border-color: #48BEFF !important;
+}
+
+
 
 /* ====== Navigation ========= */
 .navbar{
@@ -176,62 +189,6 @@ p{
     line-height: 28px; 
 }
 
-.header-btns{
-    margin-top: 90px; 
-    margin-bottom: 50px; 
-}
-
-.btn-download,
-.btn-download:focus,
-.btn-download:active, 
-.btn-download:visited
-{
-    background: transparent; 
-    border-color: #e60000; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    padding-left: 30px;
-    padding-right: 30px; 
-    font-size: 19px;
-    text-transform: uppercase; 
-    border-radius: 3px; 
-    transition: all 1s; 
-    -webkit-transition: all 1s; 
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-}
-
-
-.btn-download:hover {
-    background-color: #e60000; 
-    color: #fff; 
-}
-
-.btn-tour, 
-.btn-tour:focus,
-.btn-tour:active, 
-.btn-tour:visited{
-    color: #A9ADB0; 
-    margin-left: 20px; 
-    text-transform: uppercase; 
-    font-size: 19px;
-    font-weight: 500; 
-    background: transparent; 
-    transition: all 1s;
-    -webkit-transition: all 1s; 
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-}
-
-.btn-tour:hover{
-    color: fff; 
-}
-
-.btn-tour i {
-    font-size: 20px; 
-    padding-left: 5px; 
-    color: #cc0000; 
-}
 
 
 
@@ -726,12 +683,12 @@ p{
     text-decoration: none; 
     display: inline-block;
     text-align: center;
-    border: 1px solid #9d9d9d;
+    border: 1px solid #48BEFF;
     border-radius: 3px; 
     width: 45px;
     height: 45px; 
     line-height: 49px; 
-    color: #9d9d9d; 
+    color: #48BEFF; 
     transition: all 1s !important; 
     -o-transition: all 1s !important; 
     -moz-transition: all 1s !important;
@@ -739,8 +696,8 @@ p{
 }
 
 .social-icons ul li a:hover{
-    background-color: #cc0000;
-    border: 1px solid #cc0000;
+    background-color: #48BEFF;
+    border: 1px solid #48BEFF;
     color: #fff; 
 }
 
