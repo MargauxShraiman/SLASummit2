@@ -282,22 +282,7 @@ p{
     color: #0A3468;
 }
 
-/*=========== GET INVOLVED =========*/
-.generalregistration {
-    font-family: "helvetica Neue", Helvetica;
-    margin-top: 0px;
-    background: #0A3468;
-    color: #E8E9F3;
-}
-.generalregistration h2 {
-    color: #E8E9F3;
-}
 
-.generalregistration p {
-    font: helvetica;
-    font-size: 18px;
-    color: #E8E9F3;
-}
 
 /*============== Counter ================*/ 
 .counter{
