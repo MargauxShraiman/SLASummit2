@@ -5,9 +5,18 @@
 
 body{ 
     font-family: 'Helvetica', sans-serif;
+    -webkit-font-family:'Helvetica', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
     color: #0A3468;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 100% 100%;
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    /*Webkit includes both chrome and safari browsers*/ 
+    -webkit-background-size: cover; 
 }
 
 p{
@@ -144,12 +153,12 @@ p{
 
 }
 /* ====== Header ========= */ 
-.header { 
+.home { 
     background-image: url("../images/quechua-kids.jpg"); 
     /*background attachment describes whether the image should scroll or be fixed*/ 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 50%; 
+    background-position: center 100% 100%;
     /*make sure that the background size will only cover the screen size*/ 
     background-size: cover; 
     /*prefix for mozilla browser*/
@@ -161,11 +170,11 @@ p{
 }
 
 /*This adds like a filter on top of the background image*/ 
-.header-overlay{
+.home-overlay{
     background-color: rgba(31, 31, 31, 0.75); 
 }
 
-.header-iphone img { 
+.home-iphone img { 
     width: 100%; 
 }
 
@@ -173,7 +182,7 @@ p{
     padding-bottom: 50px; 
 }
 
-.header-text h1{ 
+.home-text h1{ 
     color: #fff; 
     font-size: 35px; 
     font-weight: 300; 
@@ -182,15 +191,12 @@ p{
     text-transform: uppercase; 
 }
 
-.header-text p{ 
+.home-text p{ 
     color: #fff; 
     font-size: 17px; 
     font-weight: 300; 
     line-height: 28px; 
 }
-
-
-
 
 /*============= ABOUT US ====================*/
 .choose-us-wrapper{
