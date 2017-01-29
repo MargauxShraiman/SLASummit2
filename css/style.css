@@ -666,13 +666,13 @@ p{
 .submit-btn:focus, 
 .submit-btn:visited {
     background-color: transparent !important;
-    border: 1px solid #cc0000 !important; 
+    border: 1px solid #48BEFF !important; 
     border-radius: 4px !important; 
     width: 100% !important; 
     height: 50px !important; 
     text-transform: uppercase !important;
     font-size: 18px !important; 
-    color: #cc0000!important; 
+    color: #48BEFF!important; 
     outline: 0px !important; 
     transition: all 1s !important; 
     -o-transition: all 1s !important; 
@@ -681,9 +681,9 @@ p{
 }
 
 .submit-btn:hover {
-    background-color: #cc0000 !important; 
+    background-color: #48BEFF !important; 
     color: #fff !important; 
-    border-color: #cc0000; 
+    border-color: #48BEFF; 
 }
 
 .social-icons{
