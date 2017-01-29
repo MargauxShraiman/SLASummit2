@@ -55,6 +55,22 @@ p{
     margin-top: 45px;
 }
 
+.btn {
+    background-color: transparent !important;
+    border: 1px solid #48BEFF !important; 
+    border-radius: 4px !important; 
+    width: 100% !important; 
+    height: 50px !important; 
+    text-transform: uppercase !important;
+    font-size: 18px !important; 
+    color: #48BEFF!important; 
+    outline: 0px !important; 
+    transition: all 1s !important; 
+    -o-transition: all 1s !important; 
+    -moz-transition: all 1s !important;
+    -webkit-transition: all 1s !important;
+}
+
 /* ====== Navigation ========= */
 .navbar{
     margin-bottom: 0;
@@ -227,6 +243,7 @@ p{
 
 .about-iphone img{
     margin-top: 8px; 
+    margin-bottom: 8px;
 }
 
 .choose-us-title h2{
@@ -306,16 +323,17 @@ p{
 .generalregistration {
     font-family: "helvetica Neue", Helvetica;
     margin-top: 0px;
-    background: #E8E9F3;
+    background: #0A3468;
+    color: #E8E9F3;
 }
 .generalregistration h2 {
-    color: #0A3468;
+    color: #E8E9F3;
 }
 
 .generalregistration p {
     font: helvetica;
     font-size: 18px;
-    color: #0A3468;
+    color: #E8E9F3;
 }
 
 /*============== Counter ================*/ 
