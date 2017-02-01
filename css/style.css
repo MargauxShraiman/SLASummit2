@@ -371,7 +371,7 @@ p{
 
 /*============== OUR GOALS ===============*/
 .OUR-GOALS {
-    background-color: #E8E9F3;
+    background-color: #fff;
 }
 
 
@@ -380,15 +380,15 @@ p{
     background-color: #0A3468;
 }
 .ourinspiration p{
-    color: #E8E9F3 !important;
+    color: #fff !important;
 }
 .ourinspiration h2 {
-    color: #E8E9F3 !important;
+    color: #fff !important;
 }
 
 /*============= projects ============*/
 .PROJECTS{
-    background-color: #E8E9F3;
+    background-color: #fff;
 }
 .project-title {
     padding-top: 50px; 
@@ -428,18 +428,18 @@ p{
     vertical-align: middle;
     line-height: 90px; 
     padding-top: 30px;
-    color: #E8E9F3;
+    color: #fff;
 }
 
 .articles p{
-    color: #E8E9F3;
+    color: #fff;
 }
 
 .articles h2 {
-    color: #E8E9F3;
+    color: #fff;
 }
 .art {
-    color: #E8E9F3;
+    color: #fff;
 }
 
 .art h3{
@@ -449,7 +449,7 @@ p{
 
 /*============= MEET THE TEAM ==================*/
 .MEET-THE-TEAM {
-    background-color: #E8E9F3;
+    background-color: #fff;
 }
 
 
@@ -523,7 +523,7 @@ p{
 }
 
 .purchase-now p{
-    color: #E8E9F3; 
+    color: #fff; 
     font-size: 18px; 
     font-weight: 300; 
 }
@@ -535,7 +535,7 @@ p{
 {
     background-color: #48BEFF !important; 
     border: 1px solid #48BEFF !important;
-    color: #E8E9F3; 
+    color: #fff; 
     border-radius: 3px; 
     padding: 15px 35px; 
     text-transform: uppercase;
@@ -640,7 +640,7 @@ p{
 
 /*============== Contact Us ================*/ 
 .contact-us {
-    background-color: #E8E9F3;
+    background-color: #fff;
 }
 
 .googleform {
