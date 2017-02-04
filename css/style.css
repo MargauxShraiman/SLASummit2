@@ -1,7 +1,4 @@
-* {
-    margin: 0; 
-    padding: 0; 
-}
+
 
 body{ 
     font-family: 'Helvetica', sans-serif;
@@ -52,8 +49,7 @@ p{
     height: 1px; 
     background-color: #cc0000; 
     margin-left: -30px; 
-    color: #
-    0A3468;
+    color: #0A3468;
 }
 .section-title p{
     color: #0A3468; 
@@ -413,6 +409,10 @@ p{
     height: 1px; 
     background-color: #cc0000; 
     margin-left: -30px; 
+}
+
+.project-titlepicture img{
+    padding: 50px;
 }
 
 /*===I want to make the image darken when you hover over it ====*/
