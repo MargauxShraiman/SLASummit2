@@ -5,7 +5,7 @@ body{
     -webkit-font-family:'Helvetica', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
-    color: #0A3468;
+    color: #0B4F6C;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center 100% 100%;
@@ -34,7 +34,7 @@ p{
 .section-title h2 {
     position: relative;
     text-align: center; 
-    color: #0A3468; 
+    color: #0B4F6C; 
     font-size: 30px; 
     font-weight: 400; 
     text-transform: uppercase;
@@ -49,10 +49,10 @@ p{
     height: 1px; 
     background-color: #cc0000; 
     margin-left: -30px; 
-    color: #0A3468;
+    color: #0B4F6C;
 }
 .section-title p{
-    color: #0A3468; 
+    color: #0B4F6C; 
     font-size: 18px; 
     line-height: 20px; 
     font-weight: 300; 
@@ -280,7 +280,7 @@ p{
     font-size: 30px; 
     line-height: 37px; 
     position: relative; 
-    color: #0A3468; 
+    color: #0B4F6C; 
 }
 
 .choose-us-title h2:after{
@@ -291,12 +291,12 @@ p{
     width: 70px; 
     height: 1px; 
     background-color: #cc0000; 
-    color: #0A3468 !important; 
+    color: #0B4F6C !important; 
 }
 
 
 .choose-us-title p{
-    color: #0A3468 !important; 
+    color: #0B4F6C !important; 
     font-size: 18px; 
     line-height: 20px; 
     font-weight: 300; 
@@ -331,11 +331,11 @@ p{
     text-transform: uppercase; 
     font-size: 20px;
     font-weight: 500;
-    color: #0A3468;
+    color: #0B4F6C;
 }
 
 .choose-us-item p{
-    color: #0A3468; 
+    color: #0B4F6C; 
     font-size: 16px; 
     line-height: 28px; 
     font-weight: 300; 
@@ -344,7 +344,7 @@ p{
 }
 
 .text-center {
-    color: #0A3468;
+    color: #0B4F6C;
 }
 
 
@@ -399,7 +399,7 @@ p{
 
 /*============== OUR INSPIRATION ===============*/
 .OUR-INSPIRATION{
-    background-color: #0A3468;
+    background-color: #0B4F6C;
 }
 .ourinspiration p{
     color: #fff !important;
@@ -420,7 +420,7 @@ p{
 .project-title h2 {
     position: relative;
     text-align: center; 
-    color: #0A3468; 
+    color: #0B4F6C; 
     font-size: 30px; 
     font-weight: 400; 
     text-transform: uppercase;
@@ -532,7 +532,7 @@ p{
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: #fff;
+  color: #48BEFF;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
@@ -620,7 +620,7 @@ p{
 
 /*============= Articles ============*/
 .articles {
-    background: #0A3468 !important;
+    background: #0B4F6C !important;
 }
 .readmorearticles{
     text-align: center;
@@ -708,7 +708,7 @@ p{
 
 /*============== Purchase Now ================*/ 
 .purchase-now{
-    background-color: #0A3468; 
+    background-color: #0B4F6C; 
     padding-top: 100px; 
     padding-bottom: 100px; 
 }
