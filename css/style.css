@@ -508,6 +508,7 @@ p{
   font-size: 10px;
   margin-top: 12px;
   line-height: 14px;
+  color: #fff;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -531,7 +532,7 @@ p{
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: inherit;
+  color: #fff;
 }
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
@@ -539,6 +540,7 @@ p{
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .timeline:before {
