@@ -441,6 +441,10 @@ p{
     padding: 50px;
 }
 
+.projectimg:hover {
+    opacity: 0.8;
+}
+
 /*===I want to make the image darken when you hover over it ====*/
 
 /*============= events ==================*/
