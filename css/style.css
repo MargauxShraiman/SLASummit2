@@ -94,7 +94,7 @@ p{
     background-color: transparent !important;
     border: 1px solid #A50000 !important; 
     border-radius: 4px !important; 
-    width: 15% !important; 
+    width: 20% !important; 
     height: 30px !important; 
     text-transform: uppercase !important;
     font-family: 'Helvetica', sans-serif !important;
@@ -121,7 +121,7 @@ p{
     background-color: transparent !important;
     border: 1px solid #48BEFF !important; 
     border-radius: 4px !important; 
-    width: 20% !important; 
+    width: 40% !important; 
     height: 50px !important; 
     text-transform: uppercase !important;
     font-family: 'Helvetica', sans-serif !important;
@@ -133,6 +133,22 @@ p{
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
 }
+
+/*    background-color: transparent !important;
+    border: 1px solid #48BEFF !important; 
+    border-radius: 4px !important; 
+    width: 100% !important; 
+    height: 50px !important; 
+    text-transform: uppercase !important;
+    font-family: 'Helvetica', sans-serif !important;
+    font-size: 18px !important; 
+    color: #48BEFF !important; 
+    outline: 0px !important; 
+    transition: all 1s; 
+    -o-transition: all 1s; 
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}*/
 
 .btn-info:hover {
     background-color: #48BEFF !important;
@@ -309,6 +325,7 @@ p{
     position: relative; 
     padding-bottom: 4px; 
     padding-left: 90px;
+    color: #48BEFF;
 }
 
 .choose-us-item div{
@@ -327,7 +344,7 @@ p{
 }
 
 .choose-us-item h3{
-    color: #343434;
+    color: #48BEFF;
     text-transform: uppercase; 
     font-size: 20px;
     font-weight: 500;
@@ -646,7 +663,7 @@ p{
 }
 
 .art h3{
-    color: #A50000;
+    color: #48BEFF;
 }
 /*============== Testimonials  ================*/ 
 
