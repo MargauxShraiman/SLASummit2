@@ -279,6 +279,65 @@ p{
     line-height: 28px; 
 }
 
+/*=========== COUNTDOWN ==============*/
+
+#main { 
+  background-color: white;
+  height: 100px;
+}
+
+.content {
+  padding: 10px 44px;
+}
+
+.text {
+  margin-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.text h2 {
+  color: #0B4F6C;
+  font-size: 30px;
+  font: helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: light;
+  letter-spacing: 2px;
+}
+
+.counter {
+  background: white;
+  min-height: 150px;
+  text-align: center;
+}
+
+.counter h3 {
+  color: #0B4F6C;
+  font-size: 14px;
+  font: helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+#countdown {
+  color: #0B4F6C;
+}
+
+#countdown span {
+  color: #0B4F6C;
+  font: helvetica;
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
 /*============= ABOUT US ====================*/
 .choose-us-wrapper{
     padding-top: 50px;     
@@ -366,7 +425,7 @@ p{
 
 
 
-/*============== Counter ================*/ 
+/*============== Counter 
 .counter{
     background-image: url("../images/parobambahouses.jpg");
     background-repeat: no-repeat; 
@@ -406,7 +465,7 @@ p{
     font-weight: 300;
     text-transform: uppercase;
     font-family: "Source Sans Pro", sans-serif; 
-}
+}================*/ 
 
 /*============== OUR GOALS ===============*/
 .OUR-GOALS {
