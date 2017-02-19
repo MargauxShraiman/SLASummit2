@@ -280,18 +280,20 @@ p{
 }
 
 /*=========== COUNTDOWN ==============*/
-
+.countdowncontainer {
+  padding-bottom: 10px;
+}
 #main { 
   background-color: white;
   height: 100px;
 }
 
 .content {
-  padding: 10px 44px;
+  padding: 0px 44px;
 }
 
 .text {
-  margin-top: 40px;
+  margin-top: 10px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -308,7 +310,7 @@ p{
 
 .counter {
   background: white;
-  min-height: 150px;
+  min-height: 40px;
   text-align: center;
 }
 
@@ -422,8 +424,6 @@ p{
 .text-center {
     color: #0B4F6C;
 }
-
-
 
 /*============== Counter 
 .counter{
